@@ -23,12 +23,8 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-import sys
-import os
 
-doc_directory = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.normpath(
-    os.path.join(doc_directory, os.pardir, 'sphinxcontrib')))
+from sphinxcontrib import epydoc
 
 needs_sphinx = '1.0'
 
@@ -38,9 +34,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 project = u'sphinxcontrib-epydoc'
-copyright = u'2010, Sebastian Wiesner'
-version = '0.4'
-release = '0.4.1'
+copyright = u'2010, 2011, 2012 Sebastian Wiesner'
+version = '.'.join(issuetracker.__version__.split('.')[:2])
+release = issuetracker.__version__
 
 exclude_patterns = ['_build/*']
 
