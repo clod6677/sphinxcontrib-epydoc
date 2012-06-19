@@ -76,5 +76,4 @@ setup(
     include_package_data=True,
     install_requires=['Sphinx>=1.1'],
     namespace_packages=['sphinxcontrib'],
-    use_2to3=True,
 )
