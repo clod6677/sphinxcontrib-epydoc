@@ -106,7 +106,7 @@ License
 
 .. _Sphinx: http://sphinx.pocoo.org/
 .. _epydoc: http://epydoc.sourceforge.net/
-.. _issue tracker: https://github.com/lunaryorn/sphinxcontrib-issuetracker/issues
+.. _issue tracker: https://github.com/lunaryorn/sphinxcontrib-epydoc/issues
 .. _python package index: http://pypi.python.org/pypi/sphinxcontrib-epydoc
 .. _github: https://github.com/lunaryorn/sphinxcontrib-epydoc
 .. _pep8: http://pypi.python.org/pypi/pep8/
