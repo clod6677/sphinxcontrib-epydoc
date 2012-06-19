@@ -47,10 +47,10 @@ intersphinx_mapping = {'python': ('http://docs.python.org/', None),
                        'sphinx': ('http://sphinx.pocoo.org/', None)}
 
 epydoc_mapping = {
-   'http://paludis.pioto.org/api/python/': [r'paludis(\.|$)'],
-   }
+   'http://paludis.exherbo.org/api/python': [r'paludis(\.|$)'],
+}
+
 
 def setup(app):
     app.add_description_unit('confval', 'confval',
                              'pair: %s; configuration value')
-
