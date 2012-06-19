@@ -54,7 +54,6 @@ setup(
     name='sphinxcontrib-epydoc',
     version=read_version_number(),
     url='http://packages.python.org/sphinxcontrib-epydoc',
-    download_url='http://pypi.python.org/pypi/sphinxcontrib-epydoc',
     license='BSD',
     author='Sebastian Wiesner',
     author_email='lunaryorn@googlemail.com',
