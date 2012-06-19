@@ -4,7 +4,7 @@ sphinxcontrib-epydoc
 
 http://sphinxcontrib-epydoc.readthedocs.org
 
-A Sphinx_ extension to cross-reference epydoc-generated documentation.
+A Sphinx_ extension to cross-reference API documentation generated with Epydoc_.
 
 Installation
 ------------
@@ -34,7 +34,8 @@ For more details refer to the documentation_, though there really isn't much
 more.
 
 
-.. _`Sphinx`: http://sphinx.pocoo.org/latest
+.. _Epydoc: http://epydoc.sourceforge.net/
+.. _Sphinx: http://sphinx.pocoo.org/latest
 .. _documentation: http://sphinxcontrib-epydoc.readthedocs.org
 .. _python package index: http://pypi.python.org/pypi/sphinxcontrib-epydoc
 .. _paludis: http://paludis.exherbo.org/api/python/index.html
