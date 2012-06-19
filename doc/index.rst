@@ -17,16 +17,9 @@ Installation
 ------------
 
 The extension requires Sphinx_ 1.1 and Python 2.6.  Python 3 is supported,
-too. It is available in the Python Package Index::
+too. It is available in the `Python Package Index`_::
 
    pip install sphinx-contrib.epydoc
-
-Alternatively, you can clone the sphinx-contrib_ repository from BitBucket,
-and install the extension directly from the repository::
-
-   hg clone http://bitbucket.org/birkenfeld/sphinx-contrib
-   cd sphinx-contrib/epydoc
-   python setup.py install
 
 
 Configuration
@@ -80,3 +73,4 @@ welcome!
 .. _sphinx-contrib: https://bitbucket.org/birkenfeld/sphinx-contrib
 .. _issue tracker: https://bitbucket.org/birkenfeld/sphinx-contrib/issues
 .. _LICENSE: https://bitbucket.org/birkenfeld/sphinx-contrib/src/tip/LICENSE
+.. _python package index: http://pypi.python.org/pypi/sphinxcontrib-epydoc
