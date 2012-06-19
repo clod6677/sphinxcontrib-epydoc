@@ -9,6 +9,8 @@ Epydoc_.
 The extension is available under the terms of the BSD license, see the
 license_ for more information.
 
+.. contents:: Contents
+
 
 Installation
 ------------
