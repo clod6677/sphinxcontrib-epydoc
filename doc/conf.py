@@ -35,8 +35,8 @@ master_doc = 'index'
 
 project = u'sphinxcontrib-epydoc'
 copyright = u'2010, 2011, 2012 Sebastian Wiesner'
-version = '.'.join(issuetracker.__version__.split('.')[:2])
-release = issuetracker.__version__
+version = '.'.join(epydoc.__version__.split('.')[:2])
+release = epydoc.__version__
 
 exclude_patterns = ['_build/*']
 
