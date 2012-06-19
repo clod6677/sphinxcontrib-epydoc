@@ -24,15 +24,32 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 
+import os
+import re
+
 from setuptools import setup, find_packages
 
 with open('README') as stream:
     long_desc = stream.read()
 
 
+VERSION_PATTERN = re.compile(r"__version__ = '([^']+)'")
+VERSION_FILE = os.path.join('sphinxcontrib', 'epydoc.py')
+
+
+def read_version_number():
+    with open(VERSION_FILE) as stream:
+        for line in stream:
+            match = VERSION_PATTERN.search(line)
+            if match:
+                return match.group(1)
+        else:
+            raise ValueError('Could not extract version number')
+
+
 setup(
     name='sphinxcontrib-epydoc',
-    version='0.5',
+    version=read_version_number(),
     url='http://packages.python.org/sphinxcontrib-epydoc',
     download_url='http://pypi.python.org/pypi/sphinxcontrib-epydoc',
     license='BSD',
