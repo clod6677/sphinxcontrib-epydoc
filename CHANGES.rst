@@ -2,6 +2,7 @@
 ~~~~~~~~~~~~~~~~~~~~
 
 - Migrate to Github
+- [#1] Continuous testing on Travis-CI
 
 
 0.5 (Jan 7, 2012)
