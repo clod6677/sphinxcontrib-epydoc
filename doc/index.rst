@@ -48,7 +48,7 @@ For instance, assume this value was set to the following:
 Then the following cross-reference would link to the documentation of the
 :class:`paludis.PackageID` class::
 
-   This is a cross-reference to the :class:`paludis.PackageID`
+   This is a cross-reference to the :class:`paludis.PackageID`.
 
 The group at the end of the pattern allows to reference the top-level
 :mod:`paludis`, too.
