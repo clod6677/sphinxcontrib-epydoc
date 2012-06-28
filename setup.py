@@ -53,7 +53,7 @@ def read_version_number():
 setup(
     name='sphinxcontrib-epydoc',
     version=read_version_number(),
-    url='http://packages.python.org/sphinxcontrib-epydoc',
+    url='http://sphinxcontrib-epydoc.readthedocs.org',
     license='BSD',
     author='Sebastian Wiesner',
     author_email='lunaryorn@googlemail.com',
