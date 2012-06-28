@@ -2,6 +2,9 @@
 sphinxcontrib-epydoc
 ####################
 
+.. image:: https://secure.travis-ci.org/lunaryorn/sphinxcontrib-epydoc.png
+   :target: http://travis-ci.org/lunaryorn/sphinxcontrib-epydoc
+
 http://sphinxcontrib-epydoc.readthedocs.org
 
 A Sphinx_ extension to cross-reference API documentation generated with Epydoc_.
