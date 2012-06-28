@@ -37,7 +37,7 @@
 from __future__ import (print_function, division, unicode_literals,
                         absolute_import)
 
-__version__ = '0.6'
+__version__ = '0.7'
 
 import re
 import posixpath
