@@ -1,5 +1,5 @@
-0.6 (in development)
-~~~~~~~~~~~~~~~~~~~~
+0.6 (Jun 28, 2012)
+~~~~~~~~~~~~~~~~~~
 
 - Migrate to Github
 - [#1] Continuous testing on Travis-CI
